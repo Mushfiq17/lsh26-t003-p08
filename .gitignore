@@ -3,3 +3,6 @@ venv/
 __pycache__/
 node_modules/
 *.pycstudent-4d01f-firebase-adminsdk-fbsvc-ec398d8cec.json
+
+# Firebase service account
+backend/*-firebase-adminsdk-*.json
