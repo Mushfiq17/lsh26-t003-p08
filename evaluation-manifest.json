@@ -1,0 +1,51 @@
+{
+  "teamId": "LSH26-T003",
+  "problemId": "P-08",
+  "liveUrl": "https://lsh26-t003-p08.vercel.app/",
+  "sourceCode": {
+    "frontend": "https://github.com/Mushfiq17/lsh26-t003-p08/tree/main/frontend",
+    "backend": "https://github.com/Mushfiq17/lsh26-t003-p08/tree/main/backend"
+  },
+  "requirements": [
+    {
+      "id": "req-1",
+      "description": "Deterministic marks, grades, GPA calculation",
+      "met": true
+    },
+    {
+      "id": "req-2",
+      "description": "Optional subject, practical, AB, and failure rules",
+      "met": true
+    },
+    {
+      "id": "req-3",
+      "description": "Calculation traces and summaries",
+      "met": true
+    },
+    {
+      "id": "req-4",
+      "description": "Validation and edge-case handling",
+      "met": true
+    },
+    {
+      "id": "req-5",
+      "description": "Firebase database integration",
+      "met": true
+    },
+    {
+      "id": "req-6",
+      "description": "OpenRouter AI integration",
+      "met": true
+    }
+  ],
+  "deployment": {
+    "frontend": "Vercel",
+    "backend": "Render"
+  },
+  "technologies": {
+    "frontend": ["React", "Vite"],
+    "backend": ["FastAPI", "Python"],
+    "database": ["Firebase"],
+    "ai": ["OpenRouter"]
+  }
+}
